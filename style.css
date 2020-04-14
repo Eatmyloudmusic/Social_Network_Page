@@ -41,14 +41,29 @@ li {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', 
     Arial, sans-serif;
     position: relative;
-    font-size: 12px;
+    font-size: 10px;
 }
-li.list {
-    font-family: 'Times New Roman', Times, serif;
+
+.nav1 {
+    position: relative
+    top: -19px;
 }
-li.link-timeline a {
+
+li.link {
+
+}
+
+li.link.timeline {
     text-decoration: underline;
+    border-bottom: darkgreen 2px;
 }
+
+li.link.more {
+
+}
+
+
+
 .head1 {
     font-size: x-small;
     font-weight: bold;
@@ -77,12 +92,39 @@ margin-top: -7px;
   font-size: 6px;
 }
 .but.likeb {
-    background-color: yellowgreen;
+    background-color: lightgray;
     padding: 2px 4px;
     box-sizing: border-box;
-    margin-right: 23px;
-    border-color: yellow;
+    margin-right: 2px;
+    border: solid 0.5px rgb(110, 110, 110);
+    color: rgb(42, 51, 51);
 }
+
+.but.followb {
+    background-color: lightgray;
+    padding: 2px 4px;
+    box-sizing: border-box;
+    margin-right: 2px;
+    border: solid 0.5px rgb(110, 110, 110);
+    color: rgb(42, 51, 51);
+}
+.but.messb {
+    background-color: lightgray;
+    padding: 2px 4px;
+    box-sizing: border-box;
+    margin-right: 2px;
+    border: solid 0.5px rgb(110, 110, 110);
+    color: rgb(42, 51, 51);
+}
+.but.dot3b {
+    background-color: lightgray;
+    padding: 2px 4px;
+    box-sizing: border-box;
+    margin-right: 2px;
+    border: solid 0.5px rgb(110, 110, 110);
+    color: rgb(42, 51, 51);
+}
+
 
 /* Two column page items list */
 nav ul {
