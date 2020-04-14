@@ -1,3 +1,29 @@
 .text1 {
     color: blueviolet;
 }
+body {
+    background-color: rgb(224, 224, 224);
+}
+.blue-header-top {
+    height: 300px;
+    width: 85%;
+    margin: 0 auto;
+    background-color: #4267b0;
+}
+.navigation {
+    width: 85%;
+    margin: 0 auto;
+    background-color: cornsilk;
+    position: relative;
+}
+.profile-picture {
+    border: 1px solid rgb(61, 60, 60);
+    border-width: thin;
+    height: 34px;
+    width: 34px;
+    background-color: #4267b0;
+    position: relative;
+    border-radius: 2.5%;
+    top: 125px;
+    left: 20px;
+}
